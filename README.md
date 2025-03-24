@@ -51,4 +51,4 @@ If you have any questions or suggestions, feel free to reach out to me:
 
 ### License
 
-This repository is licensed under the [MIT License](LICENSE).
+None
