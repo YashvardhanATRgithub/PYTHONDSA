@@ -1,18 +1,20 @@
-def bubble_sort(lst):
+def selection_sort(lst):
     # Your code goes here
-    
-    k = 0
-    size = len(lst)
-    
-    while k < size-1:
-        j = 0
-        while j < size-k-1:
-            if lst[j] > lst[j+1]:
-                lst[j], lst[j+1] = lst[j+1], lst[j]
+
+    n = len(lst)
+
+    for i in range(n):
+        min = i
+        k = i
+        j = i + 1
+        while j < n:
+            if lst[j] < lst[k]:
+                k  = j
             j += 1
-        k += 1
-        
+        lst[min], lst[k] = lst[k], lst[min]
+
     return lst
 
-lst = [64, 34, 25, 12, 22, 11, 90]
-print(bubble_sort(lst))
+
+lst = [29, 10, 14, 37, 13]
+print(selection_sort(lst))    
