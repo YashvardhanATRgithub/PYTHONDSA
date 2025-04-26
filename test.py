@@ -1,19 +1,19 @@
-def plus_one(digits):
-    """
-    Function to increment a large integer represented as a list of digits by one.
-    :param digits: List[int] -> List of digits representing the large integer
-    :return: List[int] -> The list representing the integer after incrementing
-    """
-    # Start from the last digit
-    n = len(digits)
-    for i in range(n - 1, -1, -1):
-        if digits[i] < 9:
-            digits[i] += 1
-            return digits
-        digits[i] = 0
-    
-    # If all digits are 9, the result will be a list of zeros with a 1 at the beginning
-    return [1] + digits
+def max_subarray_sum(arr):
+    if not arr:
+        return 0
+ 
+    # Initialize variables
+    max_ending_here = 0
+    max_so_far = float('-inf')
+ 
+    # Iterate through the array
+    for x in arr:
+        # Update max_ending_here to include current element
+        max_ending_here = max(x, max_ending_here + x)
+        # Update max_so_far to the maximum value found so far
+        max_so_far = max(max_so_far, max_ending_here)
+ 
+    return max_so_far
 
-digits = [9, 9, 9]
-print(plus_one(digits))
+arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+print("Maximum sub array sum is : ", max_subarray_sum(arr))
