@@ -67,7 +67,7 @@ I am committed to enriching this repository with **new content on a daily basis*
 
 If you have any questions, suggestions, or just want to connect, feel free to reach out:
 
-* **LinkedIn**: [YashvardhanATRgithub](https://www.linkedin.com/in/yashvardhan-4735121b9/)
+* **LinkedIn**: [Yashvardhan](https://www.linkedin.com/in/yashvardhan-4735121b9/)
 
 ---
 
