@@ -29,6 +29,9 @@ The repository is organized into the following directories, each focusing on a s
 13. **`13.List`**: In-depth exploration and practice with Python lists.
 14. **`14.Practise_questions_2D_List`**: Problems involving 2D lists (matrices).
 15. **`15.Importing_creating_modules_and_packages`**: Guides and examples on how to import, create, and use modules and packages in Python.
+16. **`16.File_Handling_In_Python`**: Implementation of different types of file operations in Python.
+17. **`17.Exception_handling_in_python`**: Implementation of errors gracefully using exception handling techniques.
+18. **`18.OOPS_concepts_with_classes_and_objects`**: Organisation of codes using classes and their objects or instances.
 
 ---
 
