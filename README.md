@@ -1,4 +1,4 @@
-# 🐍 PYTHONDSA - Data Structures and Algorithms in Python 🚀
+# 🐍 PYTHONDSA - Data Structures and Algorithms in Python (give :star: if it helps) 🚀
 
 Welcome to my Python DSA repository! This space is dedicated to my journey of implementing various data structures and algorithms in Python. I'm constantly learning and adding new code, so be sure to check back for regular updates!
 
